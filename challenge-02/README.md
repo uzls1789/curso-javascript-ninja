@@ -80,14 +80,9 @@ function seis( a, b, c ) {
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-seis(1);
-// 1
-seis(1,2);
-// 3
-seis( 1, 2, 3 );
-// 1
-seis();
-// false
-seis( null );
-// null
+seis(1); // 1
+seis(1,2); // 3
+seis( 1, 2, 3 ); // 1
+seis(); // false
+seis( null ); // null
 ```
